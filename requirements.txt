@@ -1,2 +1,5 @@
-nsemine
-pandas
+# 1. Install dependencies first
+pip install yfinance pandas
+
+# 2. Run the code directly from GitHub's raw URL
+curl -s https://raw.githubusercontent.com/YOUR_USERNAME/nse-ichimoku-scanner/main/scanner.py | python
